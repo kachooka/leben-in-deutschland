@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leben in Deutschland — Einbürgerungstest</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div id="app">
+
+  <!-- ══════════════════════════════════════
+       HOME SCREEN
+  ══════════════════════════════════════ -->
+  <section id="screen-home" class="screen">
+    <header class="home-header">
+      <div class="home-stripe"></div>
+      <div class="home-flag">🇩🇪</div>
+      <h1>Leben in Deutschland</h1>
+      <p class="home-subtitle">Einbürgerungstest — Vorbereitung</p>
+      <p class="home-meta" id="home-meta">Lädt…</p>
+    </header>
+
+    <main class="home-main">
+      <div class="action-cards">
+        <div class="action-card" onclick="startStudy('all')">
+          <div class="action-icon">📚</div>
+          <h2>Alle Fragen lernen</h2>
+          <p>310 Fragen Schritt für Schritt durcharbeiten</p>
+        </div>
+        <div class="action-card action-card--dark" onclick="startTest()">
+          <div class="action-icon">📝</div>
+          <h2>Prüfung üben</h2>
+          <p>33 zufällige Fragen — wie die echte Prüfung</p>
+        </div>
+      </div>
+
+      <div class="section-label">Nach Thema lernen</div>
+      <div class="cat-grid" id="home-cat-grid"></div>
+    </main>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       STUDY SCREEN
+  ══════════════════════════════════════ -->
+  <section id="screen-study" class="screen">
+    <header class="top-bar">
+      <button class="back-btn" onclick="goHome()">← Startseite</button>
+      <select id="study-select" onchange="onCategoryChange()"></select>
+      <span id="study-progress" class="progress-label">1 / 310</span>
+    </header>
+
+    <main class="quiz-main">
+      <div class="badge-row">
+        <span class="cat-badge" id="study-badge"></span>
+      </div>
+
+      <div class="question-card">
+        <p class="question-text" id="study-question"></p>
+        <div class="options-wrap" id="study-options"></div>
+      </div>
+
+      <div class="exp-box hidden" id="study-exp"></div>
+
+      <div class="study-nav">
+        <button id="btn-prev" class="btn btn--outline" onclick="studyPrev()">← Zurück</button>
+        <button id="btn-next" class="btn btn--primary" onclick="studyNext()">Weiter →</button>
+      </div>
+    </main>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       TEST SCREEN
+  ══════════════════════════════════════ -->
+  <section id="screen-test" class="screen">
+    <header class="top-bar">
+      <button class="back-btn" onclick="confirmExit()">✕ Abbruch</button>
+      <div class="pbar-wrap">
+        <div class="pbar"><div class="pbar-fill" id="test-pbar"></div></div>
+      </div>
+      <span id="test-progress" class="progress-label">1 / 33</span>
+    </header>
+
+    <main class="quiz-main">
+      <div class="question-card">
+        <div class="test-q-label">Frage</div>
+        <p class="question-text" id="test-question"></p>
+        <div class="options-wrap" id="test-options"></div>
+      </div>
+
+      <button id="btn-test-next" class="btn btn--primary btn--full" onclick="testNext()" disabled>
+        Nächste Frage →
+      </button>
+    </main>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       RESULTS SCREEN
+  ══════════════════════════════════════ -->
+  <section id="screen-results" class="screen">
+    <header class="results-header">
+      <p class="results-label">Ergebnis</p>
+      <div class="score-ring">
+        <span class="score-num" id="res-score">—</span>
+      </div>
+      <p id="res-verdict" class="verdict"></p>
+      <p id="res-sub" class="res-sub"></p>
+      <div class="res-actions">
+        <button class="btn btn--gold" onclick="startTest()">Neue Prüfung</button>
+        <button class="btn btn--outline-white" onclick="goHome()">Startseite</button>
+      </div>
+    </header>
+
+    <main class="results-main">
+      <div class="section-label">Alle Fragen im Überblick</div>
+      <div id="results-list" class="results-list"></div>
+    </main>
+  </section>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

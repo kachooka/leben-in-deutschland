@@ -1,0 +1,238 @@
+{
+  "testConfig": {
+    "totalTest": 33,
+    "categories": {
+      "demokratie":   { "name": "Leben in der Demokratie",   "color": "#2C5F8A", "takeForTest": 5 },
+      "geschichte":   { "name": "Geschichte & Verantwortung","color": "#8A5C2C", "takeForTest": 3 },
+      "gesellschaft": { "name": "Mensch & Gesellschaft",     "color": "#2C8A5C", "takeForTest": 4 },
+      "familie":      { "name": "Kinder & Familie",          "color": "#7B2C8A", "takeForTest": 3 },
+      "geschlechter": { "name": "Frauen & Männer",           "color": "#8A2C5F", "takeForTest": 3 },
+      "religion":     { "name": "Religionsfreiheit",         "color": "#5C8A2C", "takeForTest": 3 },
+      "rechtsstaat":  { "name": "Rechtsstaat",               "color": "#2C3F8A", "takeForTest": 4 },
+      "wirtschaft":   { "name": "Wirtschaft & Arbeit",       "color": "#8A7B2C", "takeForTest": 3 },
+      "rechte":       { "name": "Rechte & Pflichten",        "color": "#2C7B8A", "takeForTest": 4 },
+      "bundeslaender":{ "name": "Bundesländer",              "color": "#8A3D2C", "takeForTest": 1 }
+    }
+  },
+  "questions": [
+
+    {
+      "id": 1,
+      "categoryId": "demokratie",
+      "question": "In Deutschland können Parteien verboten werden. Wer entscheidet über ein Parteiverbot?",
+      "options": [
+        "Das Bundesverfassungsgericht",
+        "Der Bundestag",
+        "Der Bundespräsident",
+        "Die Bundesregierung"
+      ],
+      "correct": 0,
+      "explanation_vi": "Chỉ có Tòa án Hiến pháp Liên bang (Bundesverfassungsgericht) mới có thẩm quyền cấm một đảng chính trị ở Đức. Điều này được quy định trong Điều 21 của Hiến pháp (Grundgesetz). Đây là cơ chế bảo vệ nền dân chủ khỏi các đảng chống phá hiến pháp."
+    },
+    {
+      "id": 2,
+      "categoryId": "demokratie",
+      "question": "Was ist das wichtigste Grundrecht im Grundgesetz der Bundesrepublik Deutschland?",
+      "options": [
+        "Die Würde des Menschen ist unantastbar",
+        "Das Recht auf kostenloses Wohnen",
+        "Das Recht auf ein Auto",
+        "Die Pflicht zur Arbeit"
+      ],
+      "correct": 0,
+      "explanation_vi": "Điều 1 Hiến pháp Đức (Grundgesetz) quy định: 'Phẩm giá con người là bất khả xâm phạm' (Die Würde des Menschen ist unantastbar). Đây là quyền cơ bản quan trọng nhất, là nền tảng của toàn bộ hệ thống pháp luật và nhà nước Đức."
+    },
+    {
+      "id": 3,
+      "categoryId": "demokratie",
+      "question": "Wie oft wird der Deutsche Bundestag gewählt?",
+      "options": [
+        "Alle 4 Jahre",
+        "Alle 5 Jahre",
+        "Alle 3 Jahre",
+        "Alle 6 Jahre"
+      ],
+      "correct": 0,
+      "explanation_vi": "Quốc hội Liên bang Đức (Bundestag) được bầu 4 năm một lần theo nguyên tắc phổ thông đầu phiếu. Mỗi công dân Đức từ 18 tuổi trở lên có quyền bầu cử. Đây là cơ quan lập pháp cao nhất của Đức."
+    },
+
+    {
+      "id": 4,
+      "categoryId": "geschichte",
+      "question": "Wann wurde das Grundgesetz der Bundesrepublik Deutschland verabschiedet?",
+      "options": [
+        "1949",
+        "1945",
+        "1933",
+        "1990"
+      ],
+      "correct": 0,
+      "explanation_vi": "Hiến pháp Đức (Grundgesetz) được thông qua vào ngày 23 tháng 5 năm 1949, đánh dấu sự thành lập Cộng hòa Liên bang Đức (BRD - Tây Đức). Sau khi nước Đức thống nhất năm 1990, Hiến pháp được mở rộng áp dụng cho toàn bộ nước Đức."
+    },
+    {
+      "id": 5,
+      "categoryId": "geschichte",
+      "question": "Was war die NS-Zeit in Deutschland?",
+      "options": [
+        "Die Zeit des Nationalsozialismus unter Adolf Hitler (1933–1945)",
+        "Eine demokratische Epoche nach dem Zweiten Weltkrieg",
+        "Die Zeit der Weimarer Republik",
+        "Die Gründungsphase der Bundesrepublik"
+      ],
+      "correct": 0,
+      "explanation_vi": "NS-Zeit (Nationalsozialismus) là thời kỳ Đức Quốc xã dưới sự lãnh đạo của Adolf Hitler từ 1933 đến 1945. Đây là giai đoạn đen tối nhất trong lịch sử Đức, đặc trưng bởi chế độ độc tài, phân biệt chủng tộc và Holocaust — vụ diệt chủng khoảng 6 triệu người Do Thái."
+    },
+
+    {
+      "id": 6,
+      "categoryId": "gesellschaft",
+      "question": "Was ist das Ziel der Sozialhilfe in Deutschland?",
+      "options": [
+        "Menschen in Notlagen ein menschenwürdiges Leben zu ermöglichen",
+        "Nur reiche Menschen zu unterstützen",
+        "Unternehmen finanziell zu fördern",
+        "Den Staatshaushalt zu erhöhen"
+      ],
+      "correct": 0,
+      "explanation_vi": "Trợ cấp xã hội (Sozialhilfe) ở Đức nhằm đảm bảo cho những người trong hoàn cảnh khó khăn có thể sống một cuộc sống xứng đáng với phẩm giá con người (menschenwürdiges Leben). Đây là một trong những trụ cột của nhà nước phúc lợi xã hội Đức."
+    },
+    {
+      "id": 7,
+      "categoryId": "gesellschaft",
+      "question": "Was versteht man unter dem Begriff 'Toleranz' in Deutschland?",
+      "options": [
+        "Die Akzeptanz und Achtung anderer Meinungen und Lebensweisen",
+        "Das Dulden von Straftaten",
+        "Die Ablehnung von Fremden",
+        "Das Ignorieren von Gesetzen"
+      ],
+      "correct": 0,
+      "explanation_vi": "Khoan dung (Toleranz) trong xã hội Đức có nghĩa là tôn trọng và chấp nhận những người có quan điểm, lối sống, tôn giáo hay văn hóa khác nhau. Tuy nhiên, Toleranz không có nghĩa là chấp nhận vi phạm pháp luật hoặc xâm phạm quyền của người khác."
+    },
+
+    {
+      "id": 8,
+      "categoryId": "familie",
+      "question": "Bis zu welchem Alter sind Eltern in Deutschland verpflichtet, für ihre Kinder zu sorgen?",
+      "options": [
+        "Bis zur Volljährigkeit des Kindes (18 Jahre)",
+        "Bis zum 16. Lebensjahr",
+        "Bis zum 21. Lebensjahr",
+        "Es gibt keine gesetzliche Regelung"
+      ],
+      "correct": 0,
+      "explanation_vi": "Ở Đức, cha mẹ có nghĩa vụ pháp lý nuôi dưỡng và chăm sóc con cái cho đến khi con đủ 18 tuổi (thành niên - Volljährigkeit). Sau đó, nghĩa vụ cấp dưỡng có thể tiếp tục nếu con còn đang học hoặc trong hoàn cảnh đặc biệt, theo quy định của luật dân sự."
+    },
+
+    {
+      "id": 9,
+      "categoryId": "geschlechter",
+      "question": "Was regelt Artikel 3 Absatz 2 des Grundgesetzes?",
+      "options": [
+        "Männer und Frauen sind gleichberechtigt",
+        "Männer sind der Kopf der Familie",
+        "Frauen dürfen keine politischen Ämter übernehmen",
+        "Männer haben im Beruf mehr Rechte"
+      ],
+      "correct": 0,
+      "explanation_vi": "Điều 3 khoản 2 Hiến pháp Đức quy định rõ ràng: 'Phụ nữ và nam giới bình đẳng trước pháp luật' (Männer und Frauen sind gleichberechtigt). Đây là quyền hiến định, không thể bị xâm phạm. Nhà nước có nghĩa vụ thúc đẩy bình đẳng giới trong thực tế."
+    },
+
+    {
+      "id": 10,
+      "categoryId": "religion",
+      "question": "Wie verhält sich der deutsche Staat gegenüber Religionen?",
+      "options": [
+        "Der Staat ist neutral und bevorzugt keine bestimmte Religion",
+        "Der Staat unterstützt nur das Christentum",
+        "Alle Bürger müssen einer anerkannten Religion angehören",
+        "Religion ist in Deutschland verboten"
+      ],
+      "correct": 0,
+      "explanation_vi": "Đức là nhà nước thế tục và trung lập về mặt tôn giáo (weltanschauliche Neutralität). Theo Điều 4 Hiến pháp, mọi người có quyền tự do tín ngưỡng — theo hoặc không theo bất kỳ tôn giáo nào. Nhà nước không ủng hộ hay phân biệt đối xử với bất kỳ tôn giáo cụ thể nào."
+    },
+
+    {
+      "id": 11,
+      "categoryId": "rechtsstaat",
+      "question": "Was bedeutet das Prinzip der Gewaltenteilung in der Bundesrepublik Deutschland?",
+      "options": [
+        "Gesetzgebung, vollziehende Gewalt und Rechtsprechung sind voneinander getrennt",
+        "Das Militär hat die oberste Macht im Staat",
+        "Der Bundespräsident vereint alle Staatsgewalten in seiner Person",
+        "Die Bürger teilen sich die Macht gleichmäßig auf"
+      ],
+      "correct": 0,
+      "explanation_vi": "Nguyên tắc phân quyền (Gewaltenteilung) ở Đức phân chia quyền lực nhà nước thành ba nhánh hoàn toàn độc lập: Lập pháp - Bundestag (ban hành luật), Hành pháp - Bundesregierung (thực thi luật), và Tư pháp - Gerichte (xét xử). Điều này ngăn chặn sự tập trung quyền lực và bảo vệ dân chủ."
+    },
+    {
+      "id": 12,
+      "categoryId": "rechtsstaat",
+      "question": "Was ist das Bundesverfassungsgericht?",
+      "options": [
+        "Das höchste Gericht Deutschlands, das über die Einhaltung des Grundgesetzes wacht",
+        "Ein Gericht für internationale Streitigkeiten",
+        "Das Gericht für Steuerstreitigkeiten",
+        "Eine Behörde der Bundesregierung"
+      ],
+      "correct": 0,
+      "explanation_vi": "Tòa án Hiến pháp Liên bang (Bundesverfassungsgericht) là tòa án cao nhất của Đức, có trụ sở tại Karlsruhe. Nhiệm vụ chính là đảm bảo mọi luật và hành động của nhà nước đều tuân thủ Hiến pháp (Grundgesetz). Đây là bảo đảm cuối cùng cho các quyền cơ bản của công dân."
+    },
+
+    {
+      "id": 13,
+      "categoryId": "wirtschaft",
+      "question": "Wie wird die Sozialversicherung in Deutschland finanziert?",
+      "options": [
+        "Durch Beiträge von Arbeitnehmern und Arbeitgebern gemeinsam",
+        "Ausschließlich durch staatliche Mittel",
+        "Nur durch Arbeitgeberbeiträge",
+        "Durch internationale Organisationen"
+      ],
+      "correct": 0,
+      "explanation_vi": "Hệ thống bảo hiểm xã hội (Sozialversicherung) ở Đức được tài trợ bởi đóng góp ngang nhau của người lao động (Arbeitnehmer) và người sử dụng lao động (Arbeitgeber). Hệ thống bao gồm: bảo hiểm y tế, bảo hiểm hưu trí, bảo hiểm thất nghiệp, bảo hiểm chăm sóc điều dưỡng và bảo hiểm tai nạn."
+    },
+
+    {
+      "id": 14,
+      "categoryId": "rechte",
+      "question": "Welche Pflicht haben alle Personen, die in Deutschland leben?",
+      "options": [
+        "Steuern zu zahlen",
+        "Mitglied einer politischen Partei zu sein",
+        "Dem Bundesheer beizutreten",
+        "Einer deutschen Gewerkschaft anzugehören"
+      ],
+      "correct": 0,
+      "explanation_vi": "Tất cả những người sinh sống tại Đức — bất kể quốc tịch — có nghĩa vụ nộp thuế (Steuern zahlen) nếu có thu nhập hoặc sở hữu tài sản chịu thuế. Thuế là nguồn tài chính chủ yếu để nhà nước cung cấp các dịch vụ công như giáo dục, y tế, hạ tầng và phúc lợi xã hội."
+    },
+    {
+      "id": 15,
+      "categoryId": "rechte",
+      "question": "Welches Grundrecht schützt die freie Meinungsäußerung in Deutschland?",
+      "options": [
+        "Artikel 5 des Grundgesetzes",
+        "Artikel 10 des Grundgesetzes",
+        "Artikel 1 des Grundgesetzes",
+        "Artikel 20 des Grundgesetzes"
+      ],
+      "correct": 0,
+      "explanation_vi": "Điều 5 Hiến pháp Đức bảo vệ quyền tự do ngôn luận (Meinungsfreiheit): mọi người có quyền tự do bày tỏ và phổ biến ý kiến của mình. Tuy nhiên, quyền này có giới hạn: không được kích động thù hận, phủ nhận Holocaust hay xúc phạm người khác vi phạm pháp luật."
+    },
+
+    {
+      "id": 16,
+      "categoryId": "bundeslaender",
+      "question": "Wie viele Bundesländer hat die Bundesrepublik Deutschland?",
+      "options": [
+        "16",
+        "13",
+        "10",
+        "20"
+      ],
+      "correct": 0,
+      "explanation_vi": "Cộng hòa Liên bang Đức có 16 bang (Bundesländer). Sau khi nước Đức thống nhất năm 1990, 5 bang mới của Đông Đức (Neue Bundesländer) gia nhập cùng với 10 bang Tây Đức và Berlin. Mỗi bang có hiến pháp, nghị viện và chính phủ riêng."
+    }
+
+  ]
+}
